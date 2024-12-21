@@ -37,7 +37,7 @@ const Register = () => {
 
     useEffect(() => {
       if (user) {
-        navigate("/", { replace: true }); 
+        navigate("/"); 
       }
     }, [user, navigate]);
 

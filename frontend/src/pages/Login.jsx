@@ -51,8 +51,6 @@ const Login = () => {
       );
       setUser(res.data);
       toast.success("Login successful!");
-  
-      
     } catch (err) {
       setError(true);
       toast.error("Login failed. Please try again.");
@@ -63,7 +61,7 @@ const Login = () => {
   };
   useEffect(() => {
     if (user) {
-      navigate("/", { replace: true }); 
+      navigate("/"); 
     }
   }, [user, navigate]);
 

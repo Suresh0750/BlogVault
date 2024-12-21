@@ -34,7 +34,7 @@ const MyBlogs = () => {
   }, [search]);
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen mt-6">
       <br />
       <div className="px-8 md:px-[200px] py-10">
         {loader ? (
